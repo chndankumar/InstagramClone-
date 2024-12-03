@@ -105,25 +105,30 @@ mvn spring-boot:run
 
 Access the application:
 
-API endpoints: Use Postman or any other tool to test.
-Frontend: Currently not implemented (future improvement).
+## API endpoints: 
+- Use Postman or any other tool to test.
+- Frontend: Currently not implemented (future improvement).
 
-API Endpoints
+### API Endpoints
 Authentication
-POST /api/register - User registration.
-POST /api/login - User login.
-Posts
-POST /api/posts - Upload a new image.
-GET /api/posts - Fetch all posts.
-GET /api/posts/{id} - Fetch a specific post.
-Comments
-POST /api/comments - Add a comment to a post.
-GET /api/comments/{postId} - Get comments for a post.
-Likes
-POST /api/likes - Like a post.
-DELETE /api/likes/{postId} - Unlike a post.
-Learning Outcomes
-Mastered the basics of Spring Boot for building RESTful APIs.
-Learned Hibernate for seamless integration with relational databases.
-Gained practical knowledge of CRUD operations and API development.
-Developed debugging and testing skills using Postman.
+- POST /api/register - User registration.
+- POST /api/login - User login.
+
+### Posts
+- POST /api/posts - Upload a new image.
+- GET /api/posts - Fetch all posts.
+- GET /api/posts/{id} - Fetch a specific post.
+
+### Comments
+- POST /api/comments - Add a comment to a post.
+- GET /api/comments/{postId} - Get comments for a post.
+ 
+### Likes
+- POST /api/likes - Like a post.
+- DELETE /api/likes/{postId} - Unlike a post.
+
+## Learning Outcomes
+- Mastered the basics of Spring Boot for building RESTful APIs.
+- Learned Hibernate for seamless integration with relational databases.
+- Gained practical knowledge of CRUD operations and API development.
+- Developed debugging and testing skills using Postman.
